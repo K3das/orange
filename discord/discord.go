@@ -15,8 +15,6 @@ import (
 	"go.uber.org/zap"
 )
 
-const ComponentPrefix = "o:"
-
 var DefaultAllowedMentions = &discordgo.MessageAllowedMentions{
 	Parse:       []discordgo.AllowedMentionType{},
 	RepliedUser: true,
